@@ -1,3 +1,3 @@
-module github.com/Jarsey45/TripleDES-Go
+module TripleDES
 
 go 1.18
