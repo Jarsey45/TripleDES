@@ -20,6 +20,7 @@ func main() {
 
 	cipher := cipher3DES(plainText, keys);
 	result := decipher3DES(cipher, keys);
+	fmt.Println("PLAINTEXT: ", plainText);
 	fmt.Println("Triple DES Cipher text: ", cipher);
 	fmt.Println("Triple DES Descipher result: ", result);
 }
